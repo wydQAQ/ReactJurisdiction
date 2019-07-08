@@ -1,0 +1,33 @@
+.menu-top{
+    background-color:#72777b;
+    height: 60px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.menu-top .menu-left{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+}
+
+.menu-top .menu-left Button{
+    margin: 0 6px;
+}
+
+.menu-top .ant-input-search{
+    width: 200px;
+}
+.ant-table-wrapper{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+.ant-table-wrapper .ant-table-pagination{
+    margin-right: 20px;
+}

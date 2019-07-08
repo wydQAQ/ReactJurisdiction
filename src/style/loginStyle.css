@@ -1,0 +1,42 @@
+html,
+body {
+    background-color: #DADADA !important;
+}
+
+.bgBox {
+    width           : 350px;
+    height          : 200px;
+    background-color: #fff;
+    position        : absolute;
+    top             : 50%;
+    left            : 50%;
+    margin-top      : -100px;
+    margin-left     : -55px;
+    border-top-right-radius   : 8px;
+    border-bottom-right-radius   : 8px;
+}
+
+.bgBox .ant-input-affix-wrapper {
+    margin: 20px 13px;
+    width : 325px;
+}
+
+.bgBox .ant-btn-primary {
+    margin: 0 13px;
+    width : 325px;
+}
+
+.bgBox .imgBox {
+    width : 120px;
+    height: 200px;
+    position: absolute;
+    left: -120px;
+}
+
+.bgBox .imgBox img {
+    display: inline-block;
+    width : 100%;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
